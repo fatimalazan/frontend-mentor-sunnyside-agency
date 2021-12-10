@@ -1,0 +1,19 @@
+{
+  "name": "sunnyside-agency",
+  "version": "1.0.0",
+  "description": "Practice site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimalazan/sunnyside-agency.git"
+  },
+  "author": "ftmlzn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatimalazan/sunnyside-agency/issues"
+  },
+  "homepage": "https://github.com/fatimalazan/sunnyside-agency#readme"
+}
