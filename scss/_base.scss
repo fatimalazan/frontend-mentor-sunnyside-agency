@@ -1,0 +1,75 @@
+@import "variables";
+
+
+@mixin flex($flexdirection, $gapsize) {
+    display: flex;
+    flex-direction: $flexdirection;
+    justify-content: center;
+    align-items: center;
+    gap: $gapsize;
+}
+
+@mixin grid-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+}
+
+
+%cta-style {
+    position: relative;
+    padding: 0 .5rem;
+    font: 0.938rem $heading-font;
+    font-weight: 900;
+    color: $blue1;
+    text-transform: uppercase;
+}
+
+%cta-after-style {
+    content: "";
+    position: absolute;
+    top: 68%;
+    left: 0;
+    width: 100%;
+    height: .5rem;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+%design-section-style {
+    width: 100%;
+    @include flex(column, 0);
+    justify-content: end;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font: 1rem $text-font;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $heading-font;
+}
+
+a { 
+    text-decoration: none; 
+    font-family: $text-font;
+}
+
+img {
+    height: auto;
+}

@@ -1,0 +1,163 @@
+@import "variables";
+
+.nav-link {
+    font-size: 1.25rem;
+    color: $blue3;
+
+    &:nth-child(4) {
+        background-color: $yellow;
+        padding: 1rem 1.875rem;
+        font: .938rem $heading-font;
+        text-transform: uppercase;
+        color: $blue1;
+        border-radius: 2rem;
+
+        &:hover {
+            background: rgba($yellow, 0.25);
+            color: $blue2;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.125rem;
+        color: $white;
+
+        &:nth-child(4) {
+            background-color: $white;
+            padding: 1rem 1.875rem;
+            font: .938rem $heading-font;
+            text-transform: uppercase;
+            color: $blue1;
+            border-radius: 2rem;
+
+            &:hover {
+                background: rgba($white, 0.25);
+                color: $white;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+        }
+    }
+
+    &:hover {
+        color: $blue2;
+    }
+}
+
+.header-content__title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: $white;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 960px) {
+        font-size: 3.5rem;
+    }
+}
+
+.section-content__title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: $blue1;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.75rem;
+    }
+
+    @media screen and (min-width: 960px) {
+        font-size: 2.5rem;
+    }
+}
+
+.section-content__text {
+    font-size: 1.125rem;
+    color: $blue3;
+    line-height: 30px;
+    letter-spacing: -0.13px;
+
+    @media screen and (min-width: 768px) {
+        font-size: .875rem;
+    }
+
+    @media screen and (min-width: 900px) {
+        font-size: 1.125rem;
+    }
+}
+
+.design-section--content__title {
+    font-size: 1.75rem;
+    font-weight: 900;
+
+    @media screen and (min-width: 960px) {
+        font-size: 1.75rem;
+    }
+}
+
+.design-section--content__text {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.7;
+}
+
+.testimonials-title {
+    font-size: 1rem;
+    font-weight: 900;
+    color: $grayishblue;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+
+    @media screen and (min-width: 960px) {
+        font-size: 1.25rem;
+    }
+}
+
+.client-info__review {
+    width: 87%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-size: 1.125rem;
+    color: $blue2;
+    line-height: 1.6;
+
+    @media screen and (min-width: 960px) {
+        width: 15rem;
+        padding: 3.625rem 0 4.313rem 0; 
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 21.875rem;
+        padding: 3.625rem 0 4.313rem 0;
+    }
+}
+
+.client-info__name {
+    padding-bottom: .563rem;
+    font-size: 1.125rem;
+    font-weight: 900;
+    color: $blue1;
+}
+
+.client-info__position {
+    font-size: .875rem;
+    color: $blue3;
+}
+
+.footer-link {
+    font-size: 1.125rem;
+    color: $cyan2;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+.attribution {
+    padding-bottom: 2rem;
+    font-size: .9rem;
+    color: $blue2;
+
+    a {
+        color: $blue1;
+    }
+}
