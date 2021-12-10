@@ -228,7 +228,7 @@ body {
   height: 100%; }
 
 .header {
-  height: 33.625rem;
+  height: 538px;
   position: relative;
   background: url("../images/mobile/image-header.jpg") center/cover no-repeat; }
   .header-content {
@@ -363,7 +363,7 @@ footer {
   .header {
     background-image: url("../images/desktop/image-header.jpg"); }
     .header-content {
-      gap: 6.25rem;
+      gap: 6.034rem;
       padding-top: 6.563rem;
       padding-bottom: 0; }
       .header-content img {
@@ -427,7 +427,7 @@ footer {
     height: 33px;
     width: 170px; }
   .header {
-    height: 100vh; }
+    height: 800px; }
   .section-content {
     width: 27.813rem; }
   .client {
